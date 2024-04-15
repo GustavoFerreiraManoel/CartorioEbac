@@ -193,7 +193,8 @@ int main()
 		printf("\t2 - Consultar por nomes\n");
 		printf("\t3 - Consultar por CPF\n");
 		printf("\t4 - Deletar por nomes\n");
-		printf("\t5 - Deletar por CPF\n\n\n");
+		printf("\t5 - Deletar por CPF\n");
+		printf("\t6 - Sair do sistema\n\n");
 		printf("Opção:"); // final do menu
 	
 	
@@ -223,6 +224,11 @@ int main()
 			DeletarporCPF();
 			break;
 			
+			case 6:
+			printf("Obrigado por utilizar o sistema\n");
+			return 0;
+			break;
+						
 			default:
 			printf("Essa opção nao está disponivel\n"); 
 			system("pause");
